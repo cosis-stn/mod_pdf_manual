@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension client="site" method="upgrade" type="module" version="1.6">
+	<name>PDF Manuais</name>
+	<author>Clayton Rodrigues</author>
+	<creationDate>Fev 25, 2016</creationDate>
+	<copyright>© 2016 Secretaria do Tesouro Nacional. Todos os direitos reservados.</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>clayton.rodrigues@tesouro.gov.br</authorEmail>
+	<authorUrl>www.tesouro.gov.br</authorUrl>
+	<version>1.0</version>
+	<description>Módulo para disponibilizar o link de download da Versão PDF do Manual.</description>
+	<files>
+		<filename module="mod_pdf_manual">mod_pdf_manual.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+                <filename>pdf/logo-tesouro-pdf.jpg</filename>
+		<folder>tmpl</folder>
+                <folder>pdf</folder>
+	</files>
+	<config>
+	</config>
+</extension>
